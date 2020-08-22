@@ -9,7 +9,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vsh;
-    background: #4682B4;
+    background: url(image/backg.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container {
@@ -28,11 +29,10 @@ body {
   
   .container .icon {
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 77px;
+    height: 77px;
     margin: 3px;
     display: inline-block;
-    background: #4682B4;
     color: gray;
     border-radius: 5px;
     box-shadow: -1px -1px 3px rgba(255,255,255,0.1),
@@ -45,8 +45,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
 
     
   }
@@ -63,3 +63,4 @@ body {
                  0px 0px 6px 6px  #18a59ef8;             
   
 }
+
